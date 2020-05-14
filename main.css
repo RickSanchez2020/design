@@ -64,3 +64,70 @@ header {
     background-color: #FF2E6A;
     transition: 0.5s;
 }
+/*HelloBlock*/
+.containerFluid {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(350.3deg, #FFFFFF 22.74%, #F8FBFF 24.14%);
+}
+.helloBlock {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.helloBlock h1 {
+    color: #1E266D;
+    width: 400px;
+    font-size: 50px;
+}
+.helloBlockBtn {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.mainBtn {
+    background-color: #3751FF;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+    padding: 15px 30px 15px 30px;
+}
+.mainBtn:hover {
+    background-color: #FF2E6A;
+    transition: 0.5s;
+}
+.secondaryBtn {
+    color: #3751FF;
+    transition: 0.5s;
+    padding: 15px 30px 15px 30px;
+}
+.secondaryBtn:hover {
+    color: #1E266D;
+    transition: 0.5s;
+}
+.helloBlockImg {
+    display: flex;
+    width: 50%;
+}
+.helloBlockImg {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.helloBlockImg svg {
+    height: 70%;
+}
+path {
+    transition: 0.5s;
+}
+#webRec:hover path{
+fill: #FF2E6A;
+transition: 0.5s;
+cursor: pointer;
+}
