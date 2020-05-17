@@ -317,17 +317,19 @@ path {
 footer {
     background-color: #3751FF;
     height: 50vh;
-    padding: 50px 0 50px 0;
+    padding: 20px 0 20px 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 .footerWrapper {
+    height: 100%;
     max-width: 1170px;
     width: 100%;
     margin: 0 auto 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .footerWrapper h2 {
     width: 400px;
@@ -348,9 +350,18 @@ footer {
     justify-content: center;
     align-items: center;
     font-weight: 600;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+.footerTitle a:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 .divider {
-    margin: 50px 0 50px 0;
+    margin: 30px 0 30px 0;
     height: 1px;
     background-color: #C0C2CF;
     width: 100%;
@@ -358,6 +369,9 @@ footer {
 .footerNavigation {
     display: flex;
     justify-content: space-between;
+}
+.footerNavigation .logo {
+    color: #fff;
 }
 .footerNavInfo {
     display: flex;
@@ -370,12 +384,29 @@ footer {
 .footerNavWrapper {
     display: flex;
     width: 50%;
+    justify-content: space-between;
 }
-.footerPages {
+.footerPages , .footerLinks, .footerResources{
     display: flex;
     flex-direction: column;
     color: #f8fbff;
 }
+.footerLinks a {
+    margin-bottom: 15px;
+
+    color: #C0C2CF;
+}
 .footerPages a {
     color: #C0C2CF;
+    margin-bottom: 15px;
+
+}
+.footerResources a {
+    color: #C0C2CF;
+    margin-bottom: 15px;
+}
+.copyright {
+    display: flex;
+    color: #fff;
+    margin: 0 auto 0 auto;
 }
