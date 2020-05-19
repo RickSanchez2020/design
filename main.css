@@ -26,6 +26,7 @@ header {
     padding: 20px 0 20px 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header svg {
     cursor: pointer;
@@ -363,6 +364,7 @@ footer {
     font-weight: 600;
     transition: 0.5s;
     box-sizing: border-box;
+    text-align: center;
 }
 .footerTitle a:hover {
     border: 2px solid #fff;
@@ -453,7 +455,7 @@ footer {
     }
     .helloBlockImg {
         margin: auto;
-        width: 80%;
+        width: 70%;
     }
     .helloBlock {
         width: 100%;
@@ -488,6 +490,9 @@ footer {
     }
 }
 @media (max-width: 900px) {
+    .helloBlockImg {
+        width: 90%;
+    }
     .howItWorks {
         height: 100%;
     }
@@ -503,8 +508,10 @@ footer {
     .description {
         height: 100%;
         margin: 30px 0 30px 0;
+        width: 70%;
     }
     .services {
+        padding: 0;
         height: 100%;
     }
     .inputWrapper {
@@ -524,5 +531,68 @@ footer {
     }
     .footerNavInfo, .footerNavWrapper {
         width: 100%;
+    }
+}
+@media (max-width: 565px) {
+    .containerFluid {
+        height: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .helloBlock {
+        width: 100%;
+    }
+    .helloBlock h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .helloBlockBtn {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .helloBlockImg {
+        margin: 50px auto 50px auto;
+    }
+    .howItWorksTitle {
+        width: 100%;
+    }
+    .howItWorksItem {
+        text-align: center;
+        margin: 15px 0 15px 0;
+    }
+    .statistic {
+        flex-wrap: wrap;
+    }
+    .statItem {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .description {
+        width: 90%;
+    }
+    .description h2 {
+        text-align: center;
+    }
+    .newsletter h2 {
+        text-align: center;
+    }
+    .inputWrapper {
+        width: 100%;
+    }
+    .inputWrapper a {
+        width: 35%;
+    }
+    .footerWrapper h2 {
+        font-size: 24px;
+    }
+    .footerNavWrapper {
+        font-size: 14px;
+    }
+    .footerLinks {
+        padding: 0 20px 0 20px;
+        box-sizing: border-box;
     }
 }
