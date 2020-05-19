@@ -561,6 +561,7 @@ footer {
         height: 205px;
         width: 100%;
         overflow: visible;
+        display: flex;
     }
     .howItWorksTitle {
         width: 100%;
