@@ -11,6 +11,34 @@
     <title>solar:</title>
   </head>
   <body>
+    <div class="overlay" id="modal">
+      <div class="mobileHeader">
+        <div class="logo">solar<span>:</span></div>
+        <svg  
+          onclick="menuClose()"
+          id="menuClose"
+          width="44"
+          height="22"
+          viewBox="0 0 50 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="14" width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="28" width="50" height="8" rx="4" fill="#3751FF" />
+        </svg>
+      </div>
+      <div class="mobileNavbar">
+        <a href="#">Главная</a>
+        <a href="#">Услуги</a>
+        <a href="#">Портфолио</a>
+        <a href="#">Блог</a>
+      </div>
+      <div class="mobileContactUs">
+        <p class="phone">(050) 554 33 43</p>
+        <a href="#" class="contactBtn">Связаться</a>
+      </div>
+    </div>
     <div class="container">
       <header>
         <div class="logo">solar<span>:</span></div>
@@ -24,11 +52,19 @@
           <p class="phone">(050) 554 33 43</p>
           <a href="#" class="contactBtn">Связаться</a>
         </div>
-        <svg width="44" height="22" viewBox="0 0 50 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="50" height="8" rx="4" fill="#3751FF"/>
-          <rect y="14" width="50" height="8" rx="4" fill="#3751FF"/>
-          <rect y="28" width="50" height="8" rx="4" fill="#3751FF"/>
-          </svg>          
+        <svg
+          onClick="menuOpen()"
+          id="menuOpen"
+          width="44"
+          height="22"
+          viewBox="0 0 50 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="14" width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="28" width="50" height="8" rx="4" fill="#3751FF" />
+        </svg>
       </header>
     </div>
     <div class="containerFluid">
@@ -328,7 +364,9 @@
             </svg>
 
             <h3>WEB Дизайн</h3>
-            <p>Проектирование, Информационная архитектура, UI kit и система дизайна, Визуальный дизайн, Front-end разработка
+            <p>
+              Проектирование, Информационная архитектура, UI kit и система
+              дизайна, Визуальный дизайн, Front-end разработка
             </p>
           </div>
           <div class="serviceCard">
@@ -350,7 +388,8 @@
             </svg>
             <h3>UX Ресерч</h3>
             <p>
-              Мы наблюдаем, исследуем и опрашиваем ваших клиентов, чтобы лучше понять рынок, а также определить возможности для бизнеса для вас.
+              Мы наблюдаем, исследуем и опрашиваем ваших клиентов, чтобы лучше
+              понять рынок, а также определить возможности для бизнеса для вас.
             </p>
           </div>
           <div class="serviceCard">
@@ -405,34 +444,37 @@
         <div class="divider"></div>
         <div class="footerNavigation">
           <div class="footerNavInfo">
-          <div class="logo">solar<span>:</span></div>
-          <p>Если вы хотите узнать о UI/UX или нуждаетесь в услугах по дизайну продукта, позвольте нам помочь с вашей задачей.</p>
-        </div>
-        <div class="footerNavWrapper">
-          <div class="footerPages">
-            <p>Страницы</p>
-            <a href="#">Главная</a>
-            <a href="#">Услуги</a>
-            <a href="#">Портфолио</a>
-            <a href="#">Блог</a>
+            <div class="logo">solar<span>:</span></div>
+            <p>
+              Если вы хотите узнать о UI/UX или нуждаетесь в услугах по дизайну
+              продукта, позвольте нам помочь с вашей задачей.
+            </p>
           </div>
-          <div class="footerLinks">
-            <p>Ссылки</p>
-            <a href="#">Скачать бриф</a>
-            <a href="#">Условия пользования</a>
-            <a href="#">Политика конфендецеальности</a>
+          <div class="footerNavWrapper">
+            <div class="footerPages">
+              <p>Страницы</p>
+              <a href="#">Главная</a>
+              <a href="#">Услуги</a>
+              <a href="#">Портфолио</a>
+              <a href="#">Блог</a>
+            </div>
+            <div class="footerLinks">
+              <p>Ссылки</p>
+              <a href="#">Скачать бриф</a>
+              <a href="#">Условия пользования</a>
+              <a href="#">Политика конфендецеальности</a>
+            </div>
+            <div class="footerResources">
+              <p>Ресурсы</p>
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">Twiter</a>
+              <a href="#">Dribble</a>
+            </div>
           </div>
-          <div class="footerResources">
-            <p>Ресурсы</p>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twiter</a>
-            <a href="#">Dribble</a>
-          </div>
-        </div>
         </div>
         <p class="copyright">Copiright 2020 solar:</p>
       </div>
     </footer>
-  </body>
+    <script src="main.js"></script>  </body>
 </html>

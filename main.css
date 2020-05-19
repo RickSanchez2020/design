@@ -21,6 +21,9 @@ h2 {
     width: 100vw;
 }
 /* Header */
+.overlay {
+    display: none;
+}
 header {
     width: 100%;
     padding: 20px 0 20px 0;
@@ -425,6 +428,54 @@ footer {
     margin: 0 auto 0 auto;
 }
 @media (max-width: 1280px) {
+    .overlay {
+        transition: all 1s;
+        position: fixed;
+        display: flex;
+        height: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        overflow: hidden;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .overlay svg {
+        display: flex;
+    }
+    .mobileHeader {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobileHeader svg {
+        cursor: pointer;
+    }
+    .mobileHeader svg rect{
+        transition: 0.5s;
+    }
+    .mobileHeader svg:hover rect{
+        fill: #ff2e6a;
+        transition: 0.5s;
+    }
+    .mobileNavbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobileNavbar a {
+        margin: 30px 0 30px 0;
+        color: #1e266d;
+        font-size: 24px;
+        transition: 0.5s;
+        font-weight: 600;
+    }
+    .mobileContactUs {
+        display: flex;
+        justify-content: center;
+    }
     .container {
         padding: 0 20px 0 20px;
         width: 100% !important;
