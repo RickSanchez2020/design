@@ -555,6 +555,10 @@ footer {
     }
     .helloBlockImg {
         margin: 50px auto 50px auto;
+        height: 100%;
+    }
+    .helloBlockImg svg {
+        width: 280px;
     }
     .howItWorksTitle {
         width: 100%;
