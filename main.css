@@ -559,6 +559,8 @@ footer {
     }
     .helloBlockImg svg {
         height: 205px;
+        width: 100%;
+        overflow: visible;
     }
     .howItWorksTitle {
         width: 100%;
