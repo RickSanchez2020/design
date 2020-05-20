@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600,700;1,100;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>solar:</title>
+  </head>
+  <body>
+    <div class="overlay" id="modal">
+      <div class="mobileHeader">
+        <div class="logo">solar<span>:</span></div>
+        <svg
+          onclick="menuClose()"
+          id="menuClose"
+          width="44"
+          height="22"
+          viewBox="0 0 50 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="14" width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="28" width="50" height="8" rx="4" fill="#3751FF" />
+        </svg>
+      </div>
+      <div class="mobileNavbar">
+        <a href="index.html">Главная</a>
+        <a href="#">Услуги</a>
+        <a href="#">Портфолио</a>
+        <a href="#">Блог</a>
+      </div>
+      <div class="mobileContactUs">
+        <p class="phone">(050) 554 33 43</p>
+        <a href="#" class="contactBtn">Связаться</a>
+      </div>
+    </div>
+    <div class="container">
+      <header>
+        <div class="logo">solar<span>:</span></div>
+        <div class="navbar">
+          <a href="index.html">Главная</a>
+          <a href="#">Услуги</a>
+          <a href="#">Портфолио</a>
+          <a href="#">Блог</a>
+        </div>
+        <div class="contactUs">
+          <p class="phone">(050) 554 33 43</p>
+          <a href="#" class="contactBtn">Связаться</a>
+        </div>
+        <svg
+          onClick="menuOpen()"
+          id="menuOpen"
+          width="44"
+          height="22"
+          viewBox="0 0 50 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="14" width="50" height="8" rx="4" fill="#3751FF" />
+          <rect y="28" width="50" height="8" rx="4" fill="#3751FF" />
+        </svg>
+      </header>
+    </div>
+    <div class="containerFluid">
+      <div class="container">
+        <div class="wrapper">
+          <div class="helloBlock">
+            <h1>Все наши работы в одном месте</h1>
+            <div class="helloBlockBtn">
+              <a href="#projectsList" class="mainBtn">Посмотреть</a>
+              <a href="#" class="secondaryBtn">Наши услуги</a>
+            </div>
+          </div>
+          <div class="helloBlockImg">
+            <svg
+              viewBox="0 0 889 553"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M797.007 108H615.007V440H797.007V108Z"
+                  fill="#E6E6E6"
+                />
+                <path d="M632.007 423H780.007V125H632.007V423Z" fill="white" />
+                <path
+                  d="M732.097 188.915H688.874V192.928H732.097V188.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.208 202.8H688.874V206.814H764.208V202.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.135 216.685H688.874V220.699H764.135V216.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M679.916 188.974H647.805V221.085H679.916V188.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M732.097 257.915H688.874V261.928H732.097V257.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.208 271.8H688.874V275.814H764.208V271.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.135 285.685H688.874V289.699H764.135V285.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M679.916 257.974H647.805V290.085H679.916V257.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M732.097 326.915H688.874V330.928H732.097V326.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.208 340.8H688.874V344.814H764.208V340.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M764.135 354.685H688.874V358.699H764.135V354.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M679.916 326.974H647.805V359.085H679.916V326.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M289.007 108H107.007V440H289.007V108Z"
+                  fill="#E6E6E6"
+                />
+                <path d="M124.007 423H272.007V125H124.007V423Z" fill="white" />
+                <path
+                  d="M224.097 188.915H180.874V192.928H224.097V188.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.209 202.8H180.874V206.814H256.209V202.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.135 216.685H180.874V220.699H256.135V216.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M171.916 188.974H139.805V221.085H171.916V188.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M224.097 257.915H180.874V261.928H224.097V257.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.209 271.8H180.874V275.814H256.209V271.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.135 285.685H180.874V289.699H256.135V285.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M171.916 257.974H139.805V290.085H171.916V257.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M224.097 326.915H180.874V330.928H224.097V326.915Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.209 340.8H180.874V344.814H256.209V340.8Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M256.135 354.685H180.874V358.699H256.135V354.685Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M171.916 326.974H139.805V359.085H171.916V326.974Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M444.003 467C689.219 467 888.006 458.941 888.006 449C888.006 439.059 689.219 431 444.003 431C198.787 431 0 439.059 0 449C0 458.941 198.787 467 444.003 467Z"
+                  fill="#E6E6E6"
+                />
+                <path d="M575.898 0H328.115V452H575.898V0Z" fill="#3F3D56" />
+                <path
+                  d="M338.823 440.5H565.191V11.5H338.823V440.5Z"
+                  fill="white"
+                />
+                <path
+                  d="M487.528 110.161H428.682V115.626H487.528V110.161Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M531.245 129.065H428.682V134.53H531.245V129.065Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M531.145 147.969H428.682V153.434H531.145V147.969Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M416.486 110.242H372.769V153.96H416.486V110.242Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M487.528 204.101H428.682V209.565H487.528V204.101Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M531.245 223.005H428.682V228.469H531.245V223.005Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M531.145 241.909H428.682V247.374H531.145V241.909Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M416.486 204.182H372.769V247.899H416.486V204.182Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M487.528 298.04H428.682V303.505H487.528V298.04Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M531.245 316.944H428.682V322.409H531.245V316.944Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M531.145 335.849H428.682V341.313H531.145V335.849Z"
+                  fill="#E6E6E6"
+                />
+                <path
+                  d="M416.486 298.121H372.769V341.839H416.486V298.121Z"
+                  fill="#3751FF"
+                />
+                <path
+                  d="M361.507 320.5L358.507 333.5C358.507 333.5 359.507 363.5 351.507 360.5C343.507 357.5 345.507 331.5 345.507 331.5L352.507 318.5L361.507 320.5Z"
+                  fill="#FFB8B8"
+                />
+                <path
+                  d="M317.007 178C328.053 178 337.007 169.046 337.007 158C337.007 146.954 328.053 138 317.007 138C305.961 138 297.007 146.954 297.007 158C297.007 169.046 305.961 178 317.007 178Z"
+                  fill="#FFB8B8"
+                />
+                <path
+                  d="M301.507 163.5L299.507 192.5L324.507 195.5C324.507 195.5 324.507 171.5 326.507 168.5C328.507 165.5 301.507 163.5 301.507 163.5Z"
+                  fill="#FFB8B8"
+                />
+                <path
+                  d="M357.007 201L324.624 187.287C324.624 187.287 309.155 175.35 300.081 184.175L296.007 190C296.007 190 260.007 204 260.007 215L274.007 270C274.007 270 266.007 301 278.007 303L343.007 309C343.007 309 352.007 298 344.007 284L347.007 251L357.007 201Z"
+                  fill="#575A89"
+                />
+                <path
+                  d="M335.007 202L357.007 201C357.007 201 364.007 203 369.007 222C374.007 241 375.007 272 375.007 272L363.007 328L348.007 326L354.007 272L344.007 236L335.007 202Z"
+                  fill="#575A89"
+                />
+                <path
+                  d="M272.007 208L261.16 211.378C261.16 211.378 252.007 225 252.007 232C252.007 239 248.007 292 248.007 292L274.007 335L282.007 314L266.007 287L279.007 254L272.007 208Z"
+                  fill="#575A89"
+                />
+                <path
+                  d="M346.007 307L274.11 300.674C274.11 300.674 267.007 346 268.007 364C269.007 382 270.007 410 270.007 410L262.007 532L293.007 528L297.007 427L310.007 372L325.007 442L335.007 532L362.007 529L353.007 420C353.007 420 361.007 322 346.007 307Z"
+                  fill="#1E266D"
+                />
+                <path
+                  d="M356.007 524L365.007 527C365.007 527 384.007 522 379.007 535C374.007 548 360.007 546 360.007 546C360.007 546 343.007 559 336.007 549L340.007 528L356.007 524Z"
+                  fill="#1E266D"
+                />
+                <path
+                  d="M283.007 524L292.007 527C292.007 527 311.007 522 306.007 535C301.007 548 287.007 546 287.007 546C287.007 546 270.007 559 263.007 549L267.007 528L283.007 524Z"
+                  fill="#1E266D"
+                />
+                <path
+                  d="M301.507 175.5C301.507 175.5 280.507 160.5 291.507 142.5C299.138 130.013 314.951 131.001 323.921 132.778C326.338 133.224 328.609 134.251 330.541 135.77C332.472 137.29 334.005 139.256 335.007 141.5C336.507 145 336.507 148.5 330.507 148.5C318.507 148.5 324.507 157.5 324.507 157.5C324.507 157.5 316.507 159.5 318.507 166.5C320.507 173.5 301.507 175.5 301.507 175.5Z"
+                  fill="#1E266D"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="888.006" height="552.781" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="projectsList" id="projectsList">
+            <div class="projectItem">
+                <div class="projectImg">
+                    <img src="img/proj2.png" alt="">
+                </div>
+                <h3>Marketing</h3>
+                <p>2020 год</p>
+            </div>
+            <div class="projectItem">
+                <div class="projectImg">
+                    <img src="img/proj1.png" alt="">
+                </div>
+                <h3>MAX</h3>
+                <p>2020 год</p>
+            </div>
+            <div class="projectItem">
+                <div class="projectImg">
+                    <img src="img/proj3.png" alt="">
+                </div>
+                <h3>VillaMarta</h3>
+                <p>2020 год</p>
+            </div>
+            <div class="projectItem">
+                <div class="projectImg">
+                    <img src="img/proj3.png" alt="">
+                </div>
+                <h3>VillaMarta</h3>
+                <p>2020 год</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

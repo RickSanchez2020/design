@@ -472,13 +472,17 @@ footer {
         transition: 0.5s;
         font-weight: 600;
     }
+    .mobileNavbar a:hover {
+        color: #ff2e6a;
+        transition: 0.5s;
+    }
     .mobileContactUs {
         display: flex;
         justify-content: center;
     }
     .container {
         padding: 0 20px 0 20px;
-        width: 100% !important;
+        width: 100%!important;
         box-sizing: border-box;
     }
     header svg {
