@@ -55,6 +55,8 @@ header svg:hover rect {
 .navbar {
     display: flex;
     align-items: center;
+    padding-top: 4px;
+    padding-left: 30px;
 }
 .navbar a {
     color: #1e266d;
@@ -68,6 +70,9 @@ header svg:hover rect {
     color: #ff2e6a;
 }
 .contactUs {
+    display: flex;
+}
+.headerWrapper {
     display: flex;
 }
 .phone {

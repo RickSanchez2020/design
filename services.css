@@ -55,6 +55,8 @@ header svg:hover rect {
 .navbar {
     display: flex;
     align-items: center;
+    padding-top: 4px;
+    padding-left: 30px;
 }
 .navbar a {
     color: #1e266d;
@@ -68,6 +70,9 @@ header svg:hover rect {
     color: #ff2e6a;
 }
 .contactUs {
+    display: flex;
+}
+.headerWrapper {
     display: flex;
 }
 .phone {
@@ -408,6 +413,11 @@ footer {
     .helloBlockImg {
         width: 90%;
     }
+    .serviceItem {
+        margin-bottom: 50px;
+        height: 80vh;
+    }
+
     footer {
         height: 100%;
     }
@@ -448,6 +458,14 @@ footer {
         width: 100%;
         overflow: visible;
         display: flex;
+    }
+    .serviceInfoWrapper h2{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .serviceImg  {
+        width: 80%;
     }
     .footerWrapper h2 {
         font-size: 24px;
