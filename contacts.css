@@ -1,0 +1,456 @@
+/* General */
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none !important;
+}
+h2 {
+    font-size: 30px;
+    color: #1e266d;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+}
+.wrapper {
+    display: flex;
+    width: 100vw;
+}
+/* Header */
+.overlay {
+    display: none;
+}
+header {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header svg {
+    cursor: pointer;
+    display: none;
+}
+header svg rect {
+    transition: 0.5s;
+}
+header svg:hover rect {
+    fill: #ff2e6a;
+    transition: 0.5s;
+}
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e266d;
+    display: flex;
+    align-items: center;
+}
+.logo span {
+    color: #ff2e6a;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-left: 30px;
+}
+.navbar a {
+    color: #1e266d;
+    font-size: 16px;
+    transition: 0.5s;
+    font-weight: 600;
+    margin: 0 15px 0 15px;
+}
+.navbar a:hover {
+    transition: 0.5s;
+    color: #ff2e6a;
+}
+.contactUs {
+    display: flex;
+}
+.headerWrapper {
+    display: flex;
+}
+.phone {
+    color: #1e266d;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px 0 15px;
+    display: flex;
+    align-items: center;
+}
+.contactBtn {
+    background-color: #3751ff;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+    padding: 10px 15px 10px 15px;
+}
+.contactBtn:hover {
+    background-color: #ff2e6a;
+    transition: 0.5s;
+}
+/*HelloBlock*/
+.containerFluid {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(355.3deg, #ffffff 22.74%, #f8fbff 24.14%);
+}
+.helloBlock {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.helloBlock h1 {
+    color: #1e266d;
+    width: 400px;
+    font-size: 50px;
+}
+.helloBlockBtn {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.mainBtn {
+    background-color: #3751ff;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+    padding: 15px 30px 15px 30px;
+}
+.mainBtn:hover {
+    background-color: #ff2e6a;
+    transition: 0.5s;
+}
+.secondaryBtn {
+    color: #3751ff;
+    transition: 0.5s;
+    padding: 15px 30px 15px 30px;
+}
+.secondaryBtn:hover {
+    color: #1e266d;
+    transition: 0.5s;
+}
+.helloBlockImg {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.helloBlockImg svg {
+    width: 100%;
+}
+/*Contacts*/
+.contacts {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactsImg {
+width: 50%;
+display: flex;
+align-items: center;
+overflow: hidden;
+}
+.contactsImg svg {
+    transition: 1s;
+}
+.contactsImg svg:hover {
+    cursor: pointer;
+    transform: scale(1.1) rotate(-20deg);
+    transition: 1s;
+}
+.contactsInfo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    justify-content: center;
+}
+.contactsInfo a {
+    color: #1e266d;
+    font-size: 18px;
+    display: flex;
+    box-sizing: border-box;
+    border: 3px solid #3751ff;
+    width: 100%;
+    border-radius: 30px;
+    padding: 25px;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    transition: 0.7s;
+}
+.contactsInfo a:hover {
+    background-color: #ff2e6a;
+    border: 3px solid #ff2e6a;
+    color: #fff;
+    transition: 0.7s;
+}
+/*Footer*/
+footer {
+    background-color: #3751ff;
+    height: 50vh;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.footerWrapper {
+    height: 100%;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footerWrapper h2 {
+    width: 400px;
+    color: #fff;
+}
+.footerTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerTitle a {
+    background-color: #fff;
+    color: #1e266d;
+    height: 60px;
+    width: 180px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: 0.5s;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footerTitle a:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.divider {
+    margin: 30px 0 30px 0;
+    height: 1px;
+    background-color: #c0c2cf;
+    width: 100%;
+}
+.footerNavigation {
+    display: flex;
+    justify-content: space-between;
+}
+.footerNavigation .logo {
+    color: #fff;
+}
+.footerNavInfo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.footerNavInfo p {
+    color: #fff;
+}
+.footerNavWrapper {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footerPages,
+.footerLinks,
+.footerResources {
+    display: flex;
+    flex-direction: column;
+    color: #f8fbff;
+}
+.footerLinks a {
+    margin-bottom: 15px;
+
+    color: #c0c2cf;
+}
+.footerPages a {
+    color: #c0c2cf;
+    margin-bottom: 15px;
+}
+.footerResources a {
+    color: #c0c2cf;
+    margin-bottom: 15px;
+}
+.copyright {
+    display: flex;
+    color: #fff;
+    margin: 0 auto 0 auto;
+}
+@media (max-width: 1280px) {
+    .overlay {
+        transition: all 1s;
+        position: fixed;
+        display: flex;
+        height: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 999;
+        overflow: hidden;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+    .overlay svg {
+        display: flex;
+    }
+    .mobileHeader {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobileHeader svg {
+        cursor: pointer;
+    }
+    .mobileHeader svg rect {
+        transition: 0.5s;
+    }
+    .mobileHeader svg:hover rect {
+        fill: #ff2e6a;
+        transition: 0.5s;
+    }
+    .mobileNavbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobileNavbar a {
+        margin: 30px 0 30px 0;
+        color: #1e266d;
+        font-size: 24px;
+        transition: 0.5s;
+        font-weight: 600;
+    }
+    .mobileNavbar a:hover {
+        color: #ff2e6a;
+        transition: 0.5s;
+    }
+    .mobileContactUs {
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        padding: 0 20px 0 20px;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+    header svg {
+        cursor: pointer;
+        display: flex;
+    }
+    .contactUs {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .containerFluid .container {
+        height: 100%;
+    }
+    .howItWorks {
+        margin-top: 30px;
+        height: 100%;
+    }
+    .wrapper {
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .helloBlockImg {
+        margin: auto;
+        width: 70%;
+    }
+    .helloBlock {
+        width: 100%;
+        align-items: center;
+    }
+    footer {
+        padding: 0 20px 0 20px;
+    }
+    .footerNavWrapper {
+        width: 60%;
+    }
+}
+@media (max-width: 900px) {
+    .helloBlockImg {
+        width: 90%;
+    }
+    .projectsList {
+        justify-content: center;
+    }
+    .projectItem {
+        width: 70%;
+    }
+    footer {
+        height: 100%;
+    }
+    .footerNavigation {
+        flex-wrap: wrap;
+    }
+    .footerNavInfo, .footerNavWrapper {
+        width: 100%;
+    }
+}
+@media (max-width: 565px) {
+    .containerFluid {
+        height: 100%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+    .helloBlock {
+        width: 100%;
+    }
+    .helloBlock h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+    }
+    .helloBlockBtn {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .helloBlockImg {
+        margin: 50px auto 50px auto;
+        height: 100%;
+    }
+    .helloBlockImg svg {
+        height: 205px;
+        width: 100%;
+        overflow: visible;
+        display: flex;
+    }
+    .projectItem {
+        width: 90%;
+    }
+    .footerWrapper h2 {
+        font-size: 24px;
+    }
+    .footerNavWrapper {
+        font-size: 14px;
+    }
+    .footerLinks {
+        padding: 0 20px 0 20px;
+        box-sizing: border-box;
+    }
+}
