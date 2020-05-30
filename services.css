@@ -207,7 +207,6 @@ footer {
     background-color: #3751ff;
     height: 50vh;
     padding: 20px 0 20px 0;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
