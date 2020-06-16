@@ -1,7 +1,6 @@
 /* General */
-.helloBlockImgMobile {
-    display: none;
-}
+
+
 body {
     font-family: "Roboto", sans-serif;
     padding: 0;
@@ -104,6 +103,17 @@ header svg:hover rect {
     height: 100vh;
     display: flex;
     background: linear-gradient(355.3deg, #ffffff 22.74%, #f8fbff 24.14%);
+}
+.helloBlockImgMobile {
+    width: 90%;
+    height: 100%;
+    background-image: url(./img/mobileHelloBlock.png);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    
 }
 .helloBlock {
     display: flex;
@@ -472,7 +482,13 @@ footer {
     color: #fff;
     margin: 0 auto 0 auto;
 }
+.helloBlockImgMobile {
+    display: none;
+}
 @media (max-width: 1280px) {
+    .helloBlockImgMobile {
+        display: none;
+    }
     .overlay {
         transition: all 1s;
         position: fixed;
@@ -592,17 +608,10 @@ footer {
 
 @media (max-width: 900px) {
     .helloBlockImg {
-        width: 90%;
         display: none;
     }
     .helloBlockImgMobile {
-        width: 90%;
-        background-image: url(./img/mobileHelloBlock.png);
         display: flex;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        
     }
     .howItWorks {
         height: 100%;
@@ -645,6 +654,11 @@ footer {
     }
 }
 @media (max-width: 565px) {
+    .helloBlockImgMobile {
+        display: flex;
+        height: 400px;
+    }
+
     .containerFluid {
         height: 100%;
     }
@@ -663,16 +677,6 @@ footer {
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
-    }
-    .helloBlockImg {
-        margin: 50px auto 50px auto;
-        height: 100%;
-    }
-    .helloBlockImg svg {
-        height: 205px;
-        width: 100%;
-        overflow: visible;
-        display: flex;
     }
     .howItWorksTitle {
         width: 100%;
