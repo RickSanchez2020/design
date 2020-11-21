@@ -152,24 +152,21 @@ header svg:hover rect {
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
-.contactsImg {
-width: 50%;
-display: flex;
-align-items: center;
-overflow: hidden;
+iframe {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 .contactsImg svg {
     transition: 1s;
 }
-.contactsImg svg:hover {
-    cursor: pointer;
-    transform: scale(1.1) rotate(-20deg);
-    transition: 1s;
-}
+
 .contactsInfo {
-    width: 50%;
+    width: 45%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -211,7 +208,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .footerWrapper h2 {
     width: 400px;
@@ -399,13 +395,17 @@ footer {
     }
     .contacts {
         height: 100%;
+        display: flex;
+        flex-direction: column-reverse !important;
     }
-    .contactsImg {
+    iframe {
+        display: flex;
         width: 100%;
         margin-top: 100px;
         justify-content: center;
     }
     .contactsInfo {
+        display: flex;
         width: 100%;
         padding: 0 50px 50px 50px;
     }
@@ -415,7 +415,8 @@ footer {
     .footerNavigation {
         flex-wrap: wrap;
     }
-    .footerNavInfo, .footerNavWrapper {
+    .footerNavInfo,
+    .footerNavWrapper {
         width: 100%;
     }
 }

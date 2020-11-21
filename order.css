@@ -1,0 +1,100 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #3751ff;
+    display: flex;
+}
+h3 {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+.container {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 100px 40px 100px 40px;
+    flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+
+    margin: auto;
+}
+input {
+    width: 40%;
+    margin-bottom: 50px;
+}
+select {
+    width: 40%;
+    margin-bottom: 50px;
+}
+button {
+    display: flex;
+    cursor: pointer;
+}
+input {
+    color: #171717;
+    display: flex;
+    background-color: transparent;
+    font: 400 18px Roboto;
+    border-style: none;
+    border-bottom: 2px solid #3751ff;
+}
+input:active {
+    border-style: none;
+    border-bottom: 2px solid #3751ff;
+}
+input:focus {
+    outline: none;
+}
+select {
+    color: #171717;
+    display: flex;
+    background-color: transparent;
+    font: 400 18px Roboto;
+    border-style: none;
+    border-bottom: 2px solid #3751ff;
+}
+select:active {
+    border-style: none;
+    border-bottom: 2px solid #3751ff;
+}
+select:focus {
+    outline: none;
+}
+button {
+    border-radius: 20px;
+    background-color: #3751ff;
+    font-size: 18px;
+    color: #e9e9e9;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+    margin-left: auto;
+}
+button:hover {
+    background-color: #ff2e6a;
+    transition: 0.5s;
+}
